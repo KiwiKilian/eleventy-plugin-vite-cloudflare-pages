@@ -1,0 +1,17 @@
+{
+  "name": "eleventy-plugin-vite-cloudflare-pages",
+  "version": "0.0.0",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rimraf _site",
+    "format": "prettier --write '**/*.{js,json,scss,md,njk,yml}' '!_site'"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.0.0",
+    "@11ty/eleventy-plugin-vite": "5.0.0",
+    "prettier": "3.3.3"
+  }
+}
